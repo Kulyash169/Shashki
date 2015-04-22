@@ -21,6 +21,13 @@
 		1867986218E326AE008977BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1867984418E326AD008977BF /* UIKit.framework */; };
 		1867986A18E326AE008977BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1867986818E326AE008977BF /* InfoPlist.strings */; };
 		1867986C18E326AE008977BF /* ShashkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867986B18E326AE008977BF /* ShashkiTests.m */; };
+		18817CC518E86A5500115051 /* f1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18817CC318E86A5500115051 /* f1.png */; };
+		18817CCA18E89A2800115051 /* q.png in Resources */ = {isa = PBXBuildFile; fileRef = 18817CC918E89A2800115051 /* q.png */; };
+		18817CCD18E94A9500115051 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 18817CCB18E94A9500115051 /* black.png */; };
+		18817CCE18E94A9500115051 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 18817CCC18E94A9500115051 /* white.png */; };
+		18817CD118E9CB2100115051 /* damkaB.png in Resources */ = {isa = PBXBuildFile; fileRef = 18817CCF18E9CB2100115051 /* damkaB.png */; };
+		18817CD218E9CB2100115051 /* damkaW.png in Resources */ = {isa = PBXBuildFile; fileRef = 18817CD018E9CB2100115051 /* damkaW.png */; };
+		18AB9BFB1A1B8651005E06F2 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AB9BFA1A1B8651005E06F2 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,13 @@
 		1867986718E326AE008977BF /* ShashkiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShashkiTests-Info.plist"; sourceTree = "<group>"; };
 		1867986918E326AE008977BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1867986B18E326AE008977BF /* ShashkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShashkiTests.m; sourceTree = "<group>"; };
+		18817CC318E86A5500115051 /* f1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f1.png; sourceTree = "<group>"; };
+		18817CC918E89A2800115051 /* q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = q.png; sourceTree = "<group>"; };
+		18817CCB18E94A9500115051 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		18817CCC18E94A9500115051 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		18817CCF18E9CB2100115051 /* damkaB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = damkaB.png; sourceTree = "<group>"; };
+		18817CD018E9CB2100115051 /* damkaW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = damkaW.png; sourceTree = "<group>"; };
+		18AB9BFA1A1B8651005E06F2 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +131,7 @@
 				1867985218E326AE008977BF /* Main.storyboard */,
 				1867985518E326AE008977BF /* ViewController.h */,
 				1867985618E326AE008977BF /* ViewController.m */,
+				18AB9BFA1A1B8651005E06F2 /* 1.jpg */,
 				1867985818E326AE008977BF /* Images.xcassets */,
 				1867984718E326AE008977BF /* Supporting Files */,
 			);
@@ -126,6 +141,12 @@
 		1867984718E326AE008977BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18817CCB18E94A9500115051 /* black.png */,
+				18817CCC18E94A9500115051 /* white.png */,
+				18817CCF18E9CB2100115051 /* damkaB.png */,
+				18817CD018E9CB2100115051 /* damkaW.png */,
+				18817CC318E86A5500115051 /* f1.png */,
+				18817CC918E89A2800115051 /* q.png */,
 				1867984818E326AE008977BF /* Shashki-Info.plist */,
 				1867984918E326AE008977BF /* InfoPlist.strings */,
 				1867984C18E326AE008977BF /* main.m */,
@@ -228,9 +249,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18817CC518E86A5500115051 /* f1.png in Resources */,
 				1867985918E326AE008977BF /* Images.xcassets in Resources */,
+				18817CCA18E89A2800115051 /* q.png in Resources */,
+				18817CD218E9CB2100115051 /* damkaW.png in Resources */,
 				1867984B18E326AE008977BF /* InfoPlist.strings in Resources */,
 				1867985418E326AE008977BF /* Main.storyboard in Resources */,
+				18817CD118E9CB2100115051 /* damkaB.png in Resources */,
+				18817CCE18E94A9500115051 /* white.png in Resources */,
+				18817CCD18E94A9500115051 /* black.png in Resources */,
+				18AB9BFB1A1B8651005E06F2 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +484,7 @@
 				1867987118E326AE008977BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1867987218E326AE008977BF /* Build configuration list for PBXNativeTarget "ShashkiTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +493,7 @@
 				1867987418E326AE008977BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
